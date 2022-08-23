@@ -605,6 +605,20 @@ textarea {
   .header__sm-menu-link-last {
     border-bottom: 0; }
 
+.main-footer .credit{
+    text-align: center;
+    border-top: .1rem solid #222;
+    color:#fff;
+    padding:2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.main-footer .credit span{
+    color:var(--main-color);
+}
+
 .main-footer {
   background: #000;
   color: #fff; }
