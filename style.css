@@ -358,12 +358,7 @@ textarea {
     background: #f0f0f0;
     border-radius: 5px;
     font-weight: 600;
-    /* Code for Modern Browsers */
-    /* Code for WebKit, Blink, Edge */
-    /* Code for Internet Explorer 10-11 */
-    /* Code for Microsoft Edge */
-    /* Code for Mozilla Firefox 4 to 18 */
-    /* Code for Mozilla Firefox 19+ */ }
+  }
     .contact__form-input::placeholder {
       color: #999;
       font-weight: 600;
@@ -605,23 +600,10 @@ textarea {
   .header__sm-menu-link-last {
     border-bottom: 0; }
 
-.main-footer .credit{
-    text-align: center;
-    border-top: .1rem solid #222;
-    color:#fff;
-    padding:2rem;
-    padding-top: 2.5rem;
-    margin-top: 1rem;
-    font-size: 2rem;
-}
-
-.main-footer .credit span{
-    color:var(--main-color);
-}
-
 .main-footer {
   background: #000;
   color: #fff; }
+
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
@@ -670,7 +652,22 @@ textarea {
     @media only screen and (max-width: 56.25em) {
       .main-footer__lower {
         padding: 3.5rem 0; } }
-
+        .main-footer .credit{
+          text-align: center;
+          border-top: .1rem solid #222;
+          color:#fff;
+          padding:2rem;
+          padding-top: 2.5rem;
+          margin-top: 1rem;
+          font-size: 2rem;
+      }
+      
+      .main-footer .credit span{
+          color:var(--main-color);
+      }
+      .main-footer .credit span{
+        color:lightblue;
+    }
 .skills {
   display: flex;
   flex-wrap: wrap; }
