@@ -26,7 +26,12 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif; 
+  background-color: black;
+  color:white
+
+}
+
 
 a {
   text-decoration: none;
@@ -49,7 +54,8 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 5rem;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
@@ -90,14 +96,14 @@ textarea {
     color: #fff; }
     .heading-sec__main--lt::after {
       content: '';
-      background: #fff !important; }
+      background: rgb(0, 0, 0) !important; }
   .heading-sec__main::after {
     content: '';
     position: absolute;
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #0062b9;
+    background: #000000;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -128,11 +134,12 @@ textarea {
 .main-container {
   max-width: 120rem;
   margin: auto;
-  width: 92%; }
+  width: 92%; 
+  font-family: Copperplate, Papyrus, fantasy;}
 
 .btn {
   background: rgb(11, 222, 250);
-  color: #333;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -149,7 +156,7 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #000000;
+    background: #4481dc;
     color: #fff; }
   .btn--theme-inv {
     color: #0062b9;
@@ -179,7 +186,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to bottom, #3366ff 0%, #ff66cc 100%);
+  background: rgb(12, 7, 7);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -215,7 +222,7 @@ textarea {
     border-bottom: 2px solid #eee;
     transition: background .3s; }
     .home-hero__social-icon-link:hover {
-      background: rgba(255, 255, 255, 0.1); }
+      background: rgba(28, 211, 247, 0.728); }
     .home-hero__social-icon-link--bd-none {
       border-bottom: 0; }
   .home-hero__social-icon {
@@ -319,12 +326,12 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: black;
   background-size: cover;
   background-position: center; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: white;
+    background: transparent;
     padding: 4rem;
     margin-top: 6rem;
     max-width: 80rem;
@@ -341,7 +348,7 @@ textarea {
       .contact__form-field {
         margin-bottom: 3rem; } }
   .contact__form-label {
-    color: #666;
+    color: rgb(236, 232, 232);
     font-size: 1.4rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -488,8 +495,8 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  background: rgb(146, 146, 146);
+  background: rgb(0, 0, 0);
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     
@@ -504,7 +511,7 @@ textarea {
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: rgb(229, 224, 224);
     transition: color .3s; }
     .header__logo-container:hover {
       color: #0062b9; }
@@ -541,7 +548,7 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: rgb(201, 201, 201);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -586,7 +593,7 @@ textarea {
     text-decoration: none;
     padding: 2.5rem 3rem;
     font-size: 1.6rem;
-    color: #333;
+    color: rgb(208, 208, 208);
     text-align: right;
     border-bottom: 1px solid #eee;
     font-weight: 700;
@@ -711,3 +718,113 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+.timeline-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: #111;
+}
+.timeline {
+  font-family: Copperplate, Papyrus, fantasy;
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #1e1f22;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timeline-content .date {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+  .timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0px;
+  }
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+  .timeline ul li:hover::before {
+    background-color: aqua;
+  }
+}
