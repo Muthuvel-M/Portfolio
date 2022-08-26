@@ -54,7 +54,7 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-family: Copperplate, Papyrus, fantasy;
+
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -135,7 +135,7 @@ textarea {
   max-width: 120rem;
   margin: auto;
   width: 92%; 
-  font-family: Copperplate, Papyrus, fantasy;}
+  }
 
 .btn {
   background: rgb(11, 222, 250);
@@ -737,7 +737,7 @@ html {
   background-color: #111;
 }
 .timeline {
-  font-family: Copperplate, Papyrus, fantasy;
+  
   width: 80%;
   height: auto;
   max-width: 800px;
@@ -828,3 +828,4 @@ html {
     background-color: aqua;
   }
 }
+
